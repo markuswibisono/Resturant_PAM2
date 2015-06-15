@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="main" class="ui-content">
+   <marquee behavior="alternate" bgcolor="yellow" scrollamount="10" loop="200"size="20"><b>Please Choose The Resturant at Semarang City</b></marquee>
+     <form class="ui-filterable">
+      <input id="myFilter" data-type="search">
+    </form>
+    <ul data-role="listview" data-filter="true" data-input="#myFilter" data-autodividers="true" data-inset="true">
+      <li><a href="#info_starbuck" data-transition="slidedown"> <img src="starbuck.jpg"/> <h2> StarBucks Coffe</h2> <p> 4 stars </p></a></li>
+      <li><a href="#info_solaria" data-transition="slidedown"> <img src="solaria.jpg "/> <h2> Solaria </h2> <p> 5 stars </p> </a></li>
+     <li><a href="#info_pizzahut" data-transition="slidedown"> <img src="pizzahut.jpg "/> <h2> Pizza Hut </h2> <p> 6 stars </p> </a></li>
+      <li><a href="#info_soto" data-transition="slidedown"> <img src="soto.jpg "/> <h2>Soto Mbok Giyem </h2> <p> 7 stars </p> </a></li>
+     <li><a href="#info_s2" data-transition="slidedown"> <img src="s2.jpg "/> <h2>S2 Semarang </h2> <p> 8 stars </p> </a></li>
+      
+    </ul>
+   </div> 
+</div>
+<div data-role="page"id="info_starbuck">
+
+    <div data-role="header">
+     <h1> StarBucks Coffee </h1>
+  </div>
+  
+
+  <div data-role="main" class="ui-content">
+    <img src="starbuck.jpg"/> <h2> StarBucks Coffe</h2> <p>Rating:4 stars </p></a></li>
+    <p>Alamat Lengkap di Semarang : Paragon Mall Lantai GF, Jalan Pemuda No.118, Semarang, Jawa Tengah 50132</p>
+	<p> Telepon : (024) 86579061 </p>
+   </div>
+    <div data-role="footer">
+    <a href="https://www.google.co.id/maps/place/Starbucks+Paragon+Semarang/@-6.978986,110.41584,15z/data=!4m2!3m1!1s0x0:0xc75ff2e21f219398" class="ui-btn ui-icon-search ui-btn-icon-left"> Find us on Google Maps </a>
+	 <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>  
+</div> 
+
+<div data-role="page"id="info_solaria">
+   <div data-role="header">
+     <h1> Solaria </h1>
+  </div>
+   <div data-role="main" class="ui-content">
+  <img src="solaria.jpg "/> <h2> Solaria </h2> <p> 5 stars </p> </a></li>
+  <p> Alamat Lengkap DiSemarang: Jl Pemuda No 118, Paragon Mall Lantai 2 Unit 17, Jawa Tengah 50132</p>
+  <p> Telepon: (024) 86579071 </p>
+ </div>
+    <div data-role="footer">
+    <a href="https://www.google.co.id/maps/place/Solaria/@-6.976263,110.418445,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x3ee2f3bf45377ed4" class="ui-btn ui-icon-search ui-btn-icon-left"> Find us on Google Maps </a>
+	 <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>
+</div>
+<div data-role="page"id="info_pizzahut">
+   <div data-role="header">
+     <h1> Pizza Hut Semarang </h1>
+   </div>
+   <div data-role="main"class="ui-content">
+   <img src="solaria.jpg "/> <h2> Solaria </h2> <p> 6 stars </p> </a></li>
+  <p> Alamat lengkap: Jl. Pemuda No. 150
+      Duta Pertiwi Mall Lt. 1/ BS/ No 1-2, Duta Pertiwi Mall, Semarang</p>
+  <p> Telepon: (024) 86578142</p>
+  </div>
+   <div data-role="footer">
+    <a href="https://www.google.co.id/maps/place/Pizza+Hut/@-6.983305,110.412476,15z/data=!4m2!3m1!1s0x0:0x70dbdca7222f7e68" class="ui-btn ui-icon-search ui-btn-icon-left"> Find us on Google Maps </a>
+	 <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>
+</div>
+<div data-role="page"id="info_soto">
+   <div data-role="header">
+     <h1> Soto Mbok Giyem Semarang</h1>
+   </div>
+   <div data-role="main"class="ui-content">
+   <img src="soto.jpg."/> <h2> Soto Mbok Giyem </h2> <p> 7 stars </p> </a></li>
+  <p> Alamat lengkap: Jalan Pleburan Barat No. 7A
+    Semarang</p>
+  <p> Telepon: 0856-4159-8448</p>
+  </div>
+   <div data-role="footer">
+    <a href="https://www.google.co.id/maps/place/SOTO+SEGEER+MBOK+GIYEM/@-6.997214,110.424465,17z/data=!3m1!4b1!4m2!3m1!1s0x2e708b61b2065e8d:0x122420a24f3af25" class="ui-btn ui-icon-search ui-btn-icon-left"> Find us on Google Maps </a>
+	 <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>
+</div>
+
+<div data-role="page"id="info_s2">
+   <div data-role="header">
+     <h1> S2 Semarang</h1>
+   </div>
+   <div data-role="main"class="ui-content">
+   <img src="s2.jpg."/> <h2> S2 Semarang </h2> <p> 8 stars </p> </a></li>
+  <p>Alamat Lengkap: Jalan Sisingamangaraja No. 19C</p>
+  <p> Telepon: (024) 8503344</p>
+  </div>
+   <div data-role="footer">
+    <a href="https://www.google.co.id/maps/place/S2+Indonesia/@-7.015286,110.422135,17z/data=!3m1!4b1!4m2!3m1!1s0x2e708b7f6f33d455:0x524784b0dffb3089" class="ui-btn ui-icon-search ui-btn-icon-left"> Find us on Google Maps </a>
+	 <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>
+</div>
+</body>
+</html>
